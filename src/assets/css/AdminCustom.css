@@ -1,0 +1,18 @@
+.css-bshv44-MuiButtonBase-root-MuiListItem-root.Mui-selected,
+.css-bshv44-MuiButtonBase-root-MuiListItem-root.Mui-selected .css-cveggr-MuiListItemIcon-root,
+.css-ishquk-MuiButtonBase-root-MuiListItemButton-root.Mui-selected,
+.css-ishquk-MuiButtonBase-root-MuiListItemButton-root.Mui-selected .css-cveggr-MuiListItemIcon-root {
+    background-color: rgb(25, 118, 210) !important;
+    color: #fff !important;
+}
+
+.css-cvhtoe-MuiButtonBase-root-MuiListItemButton-root.Mui-selected,
+.css-cvhtoe-MuiButtonBase-root-MuiListItemButton-root.Mui-selected .css-cveggr-MuiListItemIcon-root {
+    background-color: rgb(84, 153, 221) !important;
+    color: #fff !important;
+}
+
+.table-thumbnail {
+    width: 150px;
+    height: 70px;
+}

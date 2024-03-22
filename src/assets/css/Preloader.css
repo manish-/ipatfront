@@ -1,0 +1,66 @@
+body{
+    padding: 0;
+    margin:0;
+    border:0;
+    outline:0;
+}
+
+.crystal {
+    background: linear-gradient(45deg, rgba(120, 120, 250, 0.5) 10%, transparent 10%),
+      linear-gradient(65deg, transparent 70%, rgba(120, 120, 250, 0.5) 70%),
+      linear-gradient(15deg, rgba(120, 120, 250, 0.5) 80%, transparent 80%),
+      linear-gradient(25deg, rgba(120, 120, 250, 0.5) 30%, transparent 30%),
+      linear-gradient(-35deg, rgba(120, 120, 250, 0.5) 50%, transparent 50%),
+      rgba(120, 120, 250, 0.5);
+  }
+  
+.load-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.load-spinner * {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-color: #ff6117;
+    border-radius: 1rem;
+    margin: 0 0.2rem;
+}
+
+.load-spinner .spinner-1 {
+    animation: fade-load 1.1s ease-in-out 0.18s infinite both;
+}
+
+.load-spinner .spinner-2 {
+    animation: fade-load 1.1s ease-in-out 0.36s infinite both;
+}
+
+.load-spinner .spinner-3 {
+    animation: fade-load 1.1s ease-in-out 0.54s infinite both;
+}
+
+@keyframes fade-load {
+    0% {
+        opacity: 0.35;
+        transform: scale(0.87);
+    }
+
+    37.5% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    75% {
+        opacity: 0.35;
+        transform: scale(0.87);
+    }
+
+    100% {
+        opacity: 0.35;
+        transform: scale(0.87);
+    }
+}
